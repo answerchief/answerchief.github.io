@@ -40,3 +40,12 @@ footer a:hover{text-decoration:underline}
 .doc p,.doc li{margin-top:12px;color:#3A3A3C}
 .doc ul{padding-left:20px}
 @media (max-width:760px){.grid{grid-template-columns:1fr}section{padding-block:72px}.hero{padding-block:88px 80px}}
+.plans{margin-top:48px;margin-bottom:28px}
+.plan{position:relative;text-align:center;padding:36px 24px}
+.plan h3{margin-top:0}
+.plan .amount{font-size:44px;font-weight:700;letter-spacing:-.04em;color:var(--ink);margin:14px 0 10px}
+.plan .amount span{font-size:16px;font-weight:500;color:var(--muted);letter-spacing:0}
+.plan p{margin-top:6px}
+.plan.pop{border:1.5px solid var(--ink)}
+.tag{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:12px;font-weight:600;letter-spacing:.04em;padding:4px 12px;border-radius:6px;white-space:nowrap}
+@media (max-width:760px){.plans{gap:28px}}
